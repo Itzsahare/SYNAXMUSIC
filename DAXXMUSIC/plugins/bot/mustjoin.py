@@ -1,4 +1,3 @@
-
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
@@ -6,7 +5,7 @@ from DAXXMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "|| ˹𖤍𝐒ʏɴαxx x 𝐒ᴜᴘᴘᴏʀᴛ𖤍˼ ||"
+MUST_JOIN = "ll_GANGSTER_x_POWER_ll"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
